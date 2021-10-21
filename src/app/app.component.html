@@ -3,4 +3,7 @@
   <br>
   <img class="img" [src]="diceLeft" alt="dice1">
   <img class="img" [src]="diceRight" alt="dice1">
+  <h1>
+    <span *ngIf='diceRight === diceLeft'  class="badge badge-succes">Ganaste</span>
+  </h1>
 </div>
